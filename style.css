@@ -8,7 +8,7 @@ body {
 
 header {
   height: 500px;
-  background-image: url("Images/cover.jpg");
+  background-image: url("cover.jpg");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -37,6 +37,19 @@ header {
   border: 5px solid white;
   margin-bottom: 20px;
   object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.6;
 }
 
 .tags span {
@@ -50,6 +63,11 @@ header {
 
 main {
   padding: 50px 20px;
+}
+
+h2 {
+  font-size: 42px;
+  margin-bottom: 30px;
 }
 
 .cards {
@@ -83,6 +101,17 @@ main {
   padding: 15px;
 }
 
+.card-text h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.card-text p {
+  font-size: 18px;
+  margin: 0;
+}
+
 .contact {
   margin-top: 50px;
 }
@@ -100,10 +129,16 @@ main {
   color: white;
   text-decoration: none;
   font-weight: bold;
+  font-size: 20px;
 }
 
 footer {
   margin-top: 40px;
   padding: 20px;
   background: rgba(0, 0, 0, 0.3);
+}
+
+footer p {
+  margin: 0;
+  font-size: 18px;
 }
